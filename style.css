@@ -1,0 +1,355 @@
+@import './scss/index.scss';
+
+/* ************************  */
+
+
+/* ************************  */
+
+
+/* Info body */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* ************************  */
+
+
+/* ************************  */
+
+
+/* Info navbar               */
+
+.barra,
+nav {
+    /* background-color: #0a072b; */
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    float: right !important;
+    height: 60px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+li a:hover:not(.nav-link .active) {
+    background-color: #262262;
+}
+
+.logo {
+    margin-right: 5px;
+}
+
+
+/* and cards */
+
+.info img {
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+}
+
+.info {
+    display: display;
+    position: static;
+    text-align: center;
+    color: #316B83;
+    font-weight: 800;
+}
+
+
+/* ************************  */
+
+
+/* ************************  */
+
+
+/* Info main section & menu  */
+
+.menu {
+    margin-top: 90px;
+    width: 100% !important;
+    /* background-image: linear-gradient(to right bottom, rgb(243, 69, 243) 30%, rgb(22, 182, 231) 50%, rgb(223, 205, 45) 80%); */
+    margin-bottom: 150px;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 44px;
+    color: #fbf46D;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #fbf46D;
+    font-size: 44px;
+}
+
+
+/* ************************  */
+
+
+/* ************************  */
+
+
+/* cards                     */
+
+.card {
+    margin: 5px;
+    max-width: 18rem;
+    display: inline-block;
+}
+
+.card-img {
+    height: 500px;
+}
+
+
+/* ************************  */
+
+
+/* ************************  */
+
+
+/* Info nosotros table       */
+
+.contacto {
+    background-color: #262262;
+    /* padding-top: 20px; */
+    border-style: solid;
+    border-top-width: 10px;
+    border-color: #262262;
+    color: #316B83;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+td,
+tr,
+th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 18px;
+}
+
+.celda {
+    width: 35%;
+}
+
+.contacto td {
+    padding-bottom: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    width: 35%;
+    padding: 8px;
+}
+
+.rrss-1 {
+    width: 30%;
+}
+
+.celda-izquierda {
+    color: #fff;
+}
+
+.celda-centro {
+    color: #316B83;
+}
+
+.rrss-icons {
+    font-size: 60px;
+    text-align: center;
+}
+
+.celda-derecha {
+    color: #000;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.youtube {
+    color: gray;
+}
+
+i.fa-facebook:hover {
+    color: blue;
+}
+
+i.fa-twitter:hover {
+    color: #1a8cd8;
+}
+
+i.fa-instagram:hover {
+    color: #e24279;
+}
+
+i.fa-youtube:hover {
+    color: #ff0100;
+}
+
+.compras {
+    margin-bottom: 500px;
+}
+
+.pedidos-label,
+.pedidos-input {
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+
+/* section .pedidos {
+    align-items: center;
+} */
+
+
+/*   
+  .pedidos {
+      margin-top: 150px; */
+
+.pedidos-label {
+    width: 450px;
+}
+
+select {
+    width: 500px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.enviar {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 200px;
+}
+
+.pedidos-formulario {
+    /* margin: 30px; */
+    text-align: center;
+    display: inline-box;
+}
+
+.etiquetas-pedidos {
+    text-align: right;
+    display: inline-box;
+}
+
+.opciones-pedidos {
+    text-align: left;
+}
+
+.form-control {
+    display: inline !important;
+}
+
+.form-select {
+    width: 500px;
+    height: 40px;
+    display: inline;
+}
+
+
+/* ************************  */
+
+
+/* ************************  */
+
+
+/* Info footer               */
+
+.footter {
+    border-style: solid;
+    border-top-width: 10px;
+    border-color: #262262;
+    background-color: #000;
+}
+
+.footter-fijo {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.createdByInfo {
+    padding: 20px;
+    color: #316B83;
+    text-align: center;
+}
+
+
+/* ************************  */
+
+
+/* ************************  */
+
+
+/* admin Inventory           */
+
+.compras {
+    text-align: center;
+}
+
+.table-inventory {
+    margin-right: 10px;
+    width: 80%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+.table-pedidos {
+    margin-left: 10px;
+    text-align: center;
+    width: 80%;
+    display: inline-block;
+}
+
+
+/* ************************  */
+
+
+/* ************************  */
+
+
+/* */
