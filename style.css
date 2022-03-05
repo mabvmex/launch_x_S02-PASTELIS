@@ -68,12 +68,11 @@ li a:hover:not(.nav-link .active) {
 /* Info logo */
 
 .logo-1 {
-    display: block;
     background-image: url(./img/logo1-pastelis.png);
-    background-repeat: no-repeat;
     background-size: cover;
-    min-height: 73em;
-    margin-top: 93px !important;
+    height: 70vw;
+    width: 100%;
+    margin-top: 90px !important;
 }
 
 .logo {
