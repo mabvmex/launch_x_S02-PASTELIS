@@ -121,6 +121,10 @@ h3 {
 
 /* cards */
 
+a:link {
+    text-decoration: none;
+}
+
 .card {
     margin: 5px;
     max-width: 18rem;
